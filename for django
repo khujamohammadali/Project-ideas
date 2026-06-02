@@ -1,0 +1,41 @@
+this 3 write in command prompt 
+python -m jango --version
+cd desktop
+python -m django startproject moviereview
+
+for check django work perfect or not 
+check write in moviereview terminal in new terminal 
+
+write this 
+
+python manage.py runserver
+
+when you see the link open this link
+
+
+
+
+
+
+staps to make app
+in terminal
+python manage.py startapp news
+then add this app in setting
+
+make class News in news startapp
+write class News in models.py and write variable
+
+then go to urls for import news in views as nv and  add path 
+then go to admin and import News class & rgister models
+then go to views make function name as news and call html file 
+then make html file in templates in news 
+
+
+then conitune write in terminal 
+
+python manage.py makemigrations
+pyhon manage.py migrate
+python manage.py runserver
+
+then add news in /admin
+
